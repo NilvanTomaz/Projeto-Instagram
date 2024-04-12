@@ -1,3 +1,4 @@
+import React from "react";
 import logo from "./imagens/images.png";
 import Menu from "./TextMenu";
 import { IoSearch } from "react-icons/io5";
@@ -6,6 +7,7 @@ import { IoMdHome } from "react-icons/io";
 import { FiMessageCircle } from "react-icons/fi";
 import { FaHeart, FaRegPlusSquare } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
+
 export default function ConteudoLateralEsquerda() {
   return (
     <div className="conteudoLateralEsquerda">
@@ -15,74 +17,29 @@ export default function ConteudoLateralEsquerda() {
       <ul>
         <Menu
           nome=" Home "
-          icone={
-            <IoMdHome
-              style={{
-                color: "black",
-                fontSize: "20px",
-              }}
-            />
-          }
+          icone={<IoMdHome style={{ color: "black", fontSize: "20px" }} />}
         />
         <Menu
           nome=" Buscar "
-          icone={
-            <LuSearch
-              style={{
-                color: "Black",
-                fontSize: "20px",
-              }}
-            />
-          }
+          icone={<LuSearch style={{ color: "black", fontSize: "20px" }} />}
         />
         <Menu
           nome=" Conversas"
-          icone={
-            <FiMessageCircle
-              style={{
-                color: "black",
-                fontSize: "20px",
-              }}
-            />
-          }
+          icone={<FiMessageCircle style={{ color: "black", fontSize: "20px" }} />}
         />
-
         <Menu
           nome=" Notificações"
-          icone={
-            <FaHeart
-              style={{
-                color: "black",
-                fontSize: "20px",
-              }}
-            />
-          }
+          icone={<FaHeart style={{ color: "black", fontSize: "20px" }} />}
         />
         <Menu
           nome=" Criar"
-          icone={
-            <FaRegPlusSquare
-              style={{
-                color: "black",
-                fontSize: "20px",
-              }}
-            />
-          }
+          icone={<FaRegPlusSquare style={{ color: "black", fontSize: "20px" }} />}
         />
         <Menu
           nome=" Perfil"
-          icone={
-            <CgProfile
-              style={{
-                color: "black",
-                fontSize: "20px",
-              }}
-            />
-          }
+          icone={<CgProfile style={{ color: "black", fontSize: "20px" }} />}
         />
       </ul>
     </div>
   );
 }
-
-// export default ConteudoLateralEsquerda;
