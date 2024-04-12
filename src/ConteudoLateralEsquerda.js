@@ -12,8 +12,7 @@ export default function ConteudoLateralEsquerda() {
   return (
     <div className="conteudoLateralEsquerda">
       <img src={logo} alt="Logo" />
-      <p>Exemplo de conteúdo lateral esquerda</p>
-
+    
       <ul>
         <Menu
           nome=" Home "
