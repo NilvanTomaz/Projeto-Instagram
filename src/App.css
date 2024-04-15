@@ -18,16 +18,18 @@ body {
 
 .conteudoLateralEsquerda {
   display: flex;
-  width: 15vw;
-  
+  width:17vw;
+  background: white;
+  line-height: 20px;
 }
 
 .conteudoLateralDireita {
   background: blue;
-  width: 20vw;
+  width:20vw;
 }
 
 .conteudoCentral {
-  width: 65vw;
-  background: yellow;
+  width:65vw;
+  background: #fafafa;
 }
+
