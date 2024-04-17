@@ -1,0 +1,24 @@
+.Post {
+    width: 500px;
+}
+
+.Post .card-header {
+    background: blue;
+}
+
+.Post .card-body img {
+   width: 100%;
+}
+
+.card-icons{
+display: flex;
+padding-top: 10px;
+gap: 20px ;
+font-size: 20px;
+}
+
+.card-flag{
+    display: flex;
+    justify-content: end;
+    
+}

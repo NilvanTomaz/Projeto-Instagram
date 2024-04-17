@@ -9,7 +9,6 @@ function App() {
     <>
       <Esquerda />
       <Centro />
-     
       
       <div className='conteudoLateralDireita'>
         {/* 

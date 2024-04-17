@@ -3,23 +3,23 @@ import './Stories.css'
 
 var listaUsuarios = [
     {
-        nome: "Bosak",
+        nome: "Gerisvaldo",
         url: "https://avatars.githubusercontent.com/u/48858978?v=4"
     },
     {
-        nome: "Quitts",
+        nome: "Jailson Mendes",
         url: "https://avatars.githubusercontent.com/u/48858978?v=4"
     },
     {
-        nome: "Dourado",
+        nome: "Arthur",
         url: "https://avatars.githubusercontent.com/u/48858978?v=4"
     },
     {
-        nome: "Petta",
+        nome: "Papai Noel",
         url: "https://avatars.githubusercontent.com/u/48858978?v=4"
     },
     {
-        nome: "Guga",
+        nome: "Minions",
         url: "https://avatars.githubusercontent.com/u/48858978?v=4"
     }
 ]
